@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.menu-top {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-top-link {
+    font-family: Roboto;
+    color:  #16a085;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.background {
+}
+
+.background-img {
+    background-image: url(../img/top-img.jpg)
+        
+}
+
+.section-title {
+    font-family: Roboto;
+    color:  #373737;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+.section-text {
+    font-family: Roboto;
+    color:  #373737;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    padding: 20px 100px;
+}
+
+.button {
+    display: inline-block;
+    font-family: GothamRounded;
+    color:  #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 3px;
+    background-color:  #16a085;
+    text-decoration: none;
+    padding: 15px 45px;
+    margin-top: 40px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.subscribe {
+    background-color: aqua;
+}
